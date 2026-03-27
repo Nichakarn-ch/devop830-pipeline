@@ -18,25 +18,16 @@
 }
 
 .hero {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
 
-  .base,
-  .framework,
-  .vite {
-    inset-inline: 0;
-    margin: 0 auto;
-  }
-
-  .base {
-    width: 170px;
-    position: relative;
-    z-index: 0;
-  }
-
-  .framework,
-  .vite {
-    position: absolute;
-  }
+.ku-logo {
+  width: 200px;
+  height: auto;
+}
 
   .framework {
     z-index: 1;
@@ -54,7 +45,7 @@
     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
       scale(0.8);
   }
-}
+
 
 #center {
   display: flex;
@@ -181,4 +172,18 @@
     right: 0;
     border-right-color: var(--border);
   }
+}
+
+.team {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.team ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team li {
+  margin: 5px 0;
 }
