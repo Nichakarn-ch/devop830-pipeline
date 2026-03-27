@@ -16,7 +16,7 @@ function App() {
           <h1>I love DevOps 💙</h1>
           <p>
             <strong>
-              This web app written by Mrs. Nichakarn, Thanyanee, Pavitchaya, Sasitron.
+              This web app written by Mrs. Nichakarn, Thanyanee, Pavitchaya, Sasitorn.
             </strong>
           </p>
         </div>
@@ -37,7 +37,7 @@ function App() {
               <li>Mrs.Nichakarn Chinwong 6630202210</li>
               <li>Mrs.Thanyanee Aimchit 6630202350</li>
               <li>Mrs.Pavitchaya Phoonsap 6630202481</li>
-              <li>Mrs.Sasitron Nueangjumnong 6630202708</li>
+              <li>Mrs.Sasitorn Nueangjumnong 6630202708</li>
             </ul>
           </div>
         )}
